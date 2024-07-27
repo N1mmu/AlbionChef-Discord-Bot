@@ -1,0 +1,14 @@
+[
+    {
+        "food" : "Cabbage Soup",
+        "noOfIngredient" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 0,
+                "count" : 144
+            }
+        ],
+        "itemValue" : 5800
+    }
+]
