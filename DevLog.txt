@@ -1,3 +1,8 @@
 Sprint 1
 Added the logic to store the data of ingredients and food inside ingredients.json and food.json respectively
 Added the logic to calculate the total cost of the food by fetching info from food.json and ingredients.json
+
+Sprint 2
+Added the foods and ingredients
+Added the logic to include all parameters needed to calculate
+Added embed to show the output 

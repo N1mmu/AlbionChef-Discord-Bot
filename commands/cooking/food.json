@@ -1,0 +1,1275 @@
+[
+    {
+        "id" : 0,
+        "food" : "Grilled Fish",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 20,
+                "count" : 10
+            }
+        ],
+        "itemValue" : 10
+    },
+    {
+        "id" : 1,
+        "food" : "Seaweed Salad",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 19,
+                "count" : 10
+            }
+        ],
+        "itemValue" : 10
+    },
+    {
+        "id" : 2,
+        "food" : "Carrot Soup",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 0,
+                "count" : 16
+            }
+        ],
+        "itemValue" : 64
+    },
+    {
+        "id" : 3,
+        "food" : "Wheat Soup",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 0,
+                "count" : 192
+            }
+        ],
+        "itemValue" : 640
+    },
+    {
+        "id" : 4,
+        "food" : "Cabbage Soup",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 4,
+                "count" : 144
+            }
+        ],
+        "itemValue" : 576
+    },
+    {
+        "id" : 5,
+        "food" : "Greenmoor Clam Soup",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 31,
+                "count" : 1
+            },
+            {
+
+                "id" : 0,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 90
+    },
+    {
+        "id" : 6,
+        "food" : "Murkwater Clam Soup",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 32,
+                "count" : 1
+            },
+            {
+
+                "id" : 2,
+                "count" : 2
+            },
+            {
+
+                "id" : 53,
+                "count" : 2
+            },
+            {
+
+                "id" : 13,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 260
+    },
+    {
+        "id" : 7,
+        "food" : "Blackbog Clam Soup",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 33,
+                "count" : 1
+            },
+            {
+
+                "id" : 4,
+                "count" : 6
+            },
+            {
+
+                "id" : 55,
+                "count" : 6
+            },
+            {
+
+                "id" : 15,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 750
+    },
+    {
+        "id" : 8,
+        "food" : "Bean Salad",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 1,
+                "count" : 8
+            },
+            {
+
+                "id" : 0,
+                "count" : 8
+            }
+        ],
+        "itemValue" : 64
+    },
+    {
+        "id" : 9,
+        "food" : "Turnip Salad",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 3,
+                "count" : 24
+            },
+            {
+
+                "id" : 2,
+                "count" : 24
+            }
+        ],
+        "itemValue" : 192
+    },
+    {
+        "id" : 10,
+        "food" : "Potato Salad",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 5,
+                "count" : 72
+            },
+            {
+
+                "id" : 4,
+                "count" : 72
+            }
+        ],
+        "itemValue" : 576
+    },
+    {
+        "id" : 11,
+        "food" : "Shallowshore Squid Salad",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 46,
+                "count" : 1
+            },
+            {
+
+                "id" : 1,
+                "count" : 1
+            },
+            {
+
+                "id" : 52,
+                "count" : 1
+            }
+        ],
+        "itemValue" : 90
+    },
+    {
+        "id" : 12,
+        "food" : "Midwater Octopus Salad",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 47,
+                "count" : 1
+            },
+            {
+
+                "id" : 3,
+                "count" : 2
+            },
+            {
+
+                "id" : 54,
+                "count" : 2
+            },
+            {
+
+                "id" : 14,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 260
+    },
+    {
+        "id" : 13,
+        "food" : "Deepwater Kraken Salad",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 48,
+                "count" : 1
+            },
+            {
+
+                "id" : 5,
+                "count" : 6
+            },
+            {
+
+                "id" : 56,
+                "count" : 6
+            },
+            {
+
+                "id" : 16,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 750
+    },
+    {
+        "id" : 14,
+        "food" : "Chicken Pie",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 2,
+                "count" : 2
+            },
+            {
+
+                "id" : 59,
+                "count" : 4
+            },
+            {
+
+                "id" : 13,
+                "count" : 8
+            }
+        ],
+        "itemValue" : 56
+    },
+    {
+        "id" : 15,
+        "food" : "Goose Pie",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 4,
+                "count" : 6
+            },
+            {
+
+                "id" : 59,
+                "count" : 12
+            },
+            {
+
+                "id" : 15,
+                "count" : 24
+            },
+            {
+
+                "id" : 12,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 192
+    },
+    {
+        "id" : 16,
+        "food" : "Pork Pie",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 6,
+                "count" : 18
+            },
+            {
+
+                "id" : 59,
+                "count" : 36
+            },
+            {
+
+                "id" : 17,
+                "count" : 72
+            },
+            {
+
+                "id" : 11,
+                "count" : 18
+            }
+        ],
+        "itemValue" : 576
+    },
+    {
+        "id" : 17,
+        "food" : "Upland Coldeye Pie",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 37,
+                "count" : 1
+            },
+            {
+
+                "id" : 59,
+                "count" : 1
+            },
+            {
+
+                "id" : 8,
+                "count" : 1
+            }
+        ],
+        "itemValue" : 90
+    },
+    {
+        "id" : 18,
+        "food" : "Mountain Blindeye Pie",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 38,
+                "count" : 1
+            },
+            {
+
+                "id" : 4,
+                "count" : 2
+            },
+            {
+
+                "id" : 55,
+                "count" : 2
+            },
+            {
+
+                "id" : 10,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 260
+    },
+    {
+        "id" : 19,
+        "food" : "Frostpeak Deadeye Pie",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 39,
+                "count" : 1
+            },
+            {
+
+                "id" : 6,
+                "count" : 6
+            },
+            {
+
+                "id" : 57,
+                "count" : 6
+            },
+            {
+
+                "id" : 17,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 750
+    },
+    {
+        "id" : 20,
+        "food" : "Chicken Omlette",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 2,
+                "count" : 4
+            },
+            {
+
+                "id" : 13,
+                "count" : 8
+            },
+            {
+
+                "id" : 8,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 56
+    },
+    {
+        "id" : 21,
+        "food" : "Goose Omlette",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 4,
+                "count" : 12
+            },
+            {
+
+                "id" : 15,
+                "count" : 24
+            },
+            {
+
+                "id" : 10,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 168
+    },
+    {
+        "id" : 22,
+        "food" : "Pork Omelette",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 6,
+                "count" : 36
+            },
+            {
+
+                "id" : 17,
+                "count" : 72
+            },
+            {
+
+                "id" : 10,
+                "count" : 18
+            }
+        ],
+        "itemValue" : 504
+    },
+    {
+        "id" : 23,
+        "food" : "Lowriver Crab Omelette",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 43,
+                "count" : 1
+            },
+            {
+
+                "id" : 53,
+                "count" : 1
+            },
+            {
+
+                "id" : 8,
+                "count" : 1
+            }
+        ],
+        "itemValue" : 90
+    },
+    {
+        "id" : 24,
+        "food" : "Drybrook Crab Omelette",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 44,
+                "count" : 1
+            },
+            {
+
+                "id" : 4,
+                "count" : 2
+            },
+            {
+
+                "id" : 55,
+                "count" : 2
+            },
+            {
+
+                "id" : 10,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 260
+    },{
+        "id" : 25,
+        "food" : "Dusthole Crab Omlette",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 45,
+                "count" : 1
+            },
+            {
+
+                "id" : 6,
+                "count" : 6
+            },
+            {
+
+                "id" : 57,
+                "count" : 6
+            },
+            {
+
+                "id" : 17,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 750
+    },
+    {
+        "id" : 26,
+        "food" : "Avalonian Chicken Omelette",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 9,
+                "count" : 4
+            },
+            {
+
+                "id" : 13,
+                "count" : 8
+            },
+            {
+
+                "id" : 8,
+                "count" : 2
+            },
+            {
+
+                "id" : 60,
+                "count" : 10
+            }
+        ],
+        "itemValue" : 120
+    },
+    {
+        "id" : 27,
+        "food" : "Avalonian Goose Omelette",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 11,
+                "count" : 12
+            },
+            {
+
+                "id" : 15,
+                "count" : 24
+            },
+            {
+
+                "id" : 10,
+                "count" : 6
+            },
+            {
+
+                "id" : 60,
+                "count" : 30
+            }
+        ],
+        "itemValue" : 360
+    },
+    {
+        "id" : 28,
+        "food" : "Avalonian Pork Omlette",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 12,
+                "count" : 36
+            },
+            {
+
+                "id" : 17,
+                "count" : 72
+            },
+            {
+
+                "id" : 10,
+                "count" : 18
+            },
+            {
+
+                "id" : 60,
+                "count" : 90
+            }
+        ],
+        "itemValue" : 1080
+    },
+    {
+        "id" : 29,
+        "food" : "Goat Stew",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 3,
+                "count" : 4
+            },
+            {
+
+                "id" : 30,
+                "count" : 4
+            },
+            {
+
+                "id" : 14,
+                "count" : 8
+            }
+        ],
+        "itemValue" : 64
+    },
+    {
+        "id" : 30,
+        "food" : "Mutton Stew",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 5,
+                "count" : 12
+            },
+            {
+
+                "id" : 30,
+                "count" : 12
+            },
+            {
+
+                "id" : 16,
+                "count" : 24
+            }
+        ],
+        "itemValue" : 192
+    },
+    {
+        "id" : 31,
+        "food" : "Beef Stew",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 7,
+                "count" : 36
+            },
+            {
+
+                "id" : 30,
+                "count" : 36
+            },
+            {
+
+                "id" : 18,
+                "count" : 72
+            }
+        ],
+        "itemValue" : 576
+    },
+    {
+        "id" : 32,
+        "food" : "Avalonian Goat Stew",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 0,
+                "count" : 4
+            },
+            {
+
+                "id" : 3,
+                "count" : 4
+            },
+            {
+
+                "id" : 14,
+                "count" : 8
+            },
+            {
+
+                "id" : 60,
+                "count" : 10
+            }
+        ],
+        "itemValue" : 128
+    },
+    {
+        "id" : 33,
+        "food" : "Avalonian Mutton Stew",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 4,
+                "count" : 12
+            },
+            {
+
+                "id" : 5,
+                "count" : 12
+            },
+            {
+
+                "id" : 16,
+                "count" : 24
+            },
+            {
+
+                "id" : 60,
+                "count" : 30
+            }
+        ],
+        "itemValue" : 384
+    },
+    {
+        "id" : 34,
+        "food" : "Avalonoan Beef Stew",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 6,
+                "count" : 36
+            },
+            {
+
+                "id" : 7,
+                "count" : 36
+            },
+            {
+
+                "id" : 18,
+                "count" : 72
+            },
+            {
+
+                "id" : 60,
+                "count" : 90
+            }
+        ],
+        "itemValue" : 1152
+    },
+    {
+        "id" : 35,
+        "food" : "Greenriver Eel Stew",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 34,
+                "count" : 1
+            },
+            {
+
+                "id" : 3,
+                "count" : 1
+            },
+            {
+
+                "id" : 54,
+                "count" : 1
+            }
+        ],
+        "itemValue" : 90
+    },
+    {
+        "id" : 36,
+        "food" : "Redspring Eel Stew",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 35,
+                "count" : 1
+            },
+            {
+
+                "id" : 5,
+                "count" : 2
+            },
+            {
+
+                "id" : 56,
+                "count" : 2
+            },
+            {
+
+                "id" : 11,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 260
+    },
+    {
+        "id" : 37,
+        "food" : "Deadwater Eel Stew",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 36,
+                "count" : 1
+            },
+            {
+
+                "id" : 7,
+                "count" : 6
+            },
+            {
+
+                "id" : 58,
+                "count" : 6
+            },
+            {
+
+                "id" : 12,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 750
+    },
+    {
+        "id" : 38,
+        "food" : "Goat Sandwich",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 30,
+                "count" : 4
+            },
+            {
+
+                "id" : 14,
+                "count" : 8
+            },
+            {
+
+                "id" : 24,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 56
+    },
+    {
+        "id" : 39,
+        "food" : "Mutton Sandwich",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 30,
+                "count" : 12
+            },
+            {
+
+                "id" : 16,
+                "count" : 24
+            },
+            {
+
+                "id" : 25,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 168
+    },
+    {
+        "id" : 40,
+        "food" : "Beef Sandwich",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 30,
+                "count" : 36
+            },
+            {
+
+                "id" : 18,
+                "count" : 72
+            },
+            {
+
+                "id" : 26,
+                "count" : 18
+            }
+        ],
+        "itemValue" : 504
+    },
+    {
+        "id" : 41,
+        "food" : "Avalonian Goat Sandwich",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 30,
+                "count" : 4
+            },
+            {
+
+                "id" : 14,
+                "count" : 8
+            },
+            {
+
+                "id" : 24,
+                "count" : 2
+            },
+            {
+
+                "id" : 60,
+                "count" : 10
+            }
+        ],
+        "itemValue" : 120
+    },
+    {
+        "id" : 42,
+        "food" : "Avalonian Mutton Sandwich",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 30,
+                "count" : 12
+            },
+            {
+
+                "id" : 16,
+                "count" : 24
+            },
+            {
+
+                "id" : 25,
+                "count" : 6
+            },
+            {
+
+                "id" : 60,
+                "count" : 30
+            }
+        ],
+        "itemValue" : 360
+    },
+    {
+        "id" : 43,
+        "food" : "Avalonian Beef Sandwich",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 30,
+                "count" : 36
+            },
+            {
+
+                "id" : 18,
+                "count" : 72
+            },
+            {
+
+                "id" : 26,
+                "count" : 18
+            },
+            {
+
+                "id" : 60,
+                "count" : 90
+            }
+        ],
+        "itemValue" : 1080
+    },
+    {
+        "id" : 44,
+        "food" : "Stonestream Lurcher Sandwich",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 40,
+                "count" : 1
+            },
+            {
+
+                "id" : 3,
+                "count" : 1
+            },
+            {
+
+                "id" : 24,
+                "count" : 1
+            }
+        ],
+        "itemValue" : 90
+    },
+    {
+        "id" : 45,
+        "food" : "Rushwater Lurcher Sandwich",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 41,
+                "count" : 1
+            },
+            {
+
+                "id" : 5,
+                "count" : 2
+            },
+            {
+
+                "id" : 56,
+                "count" : 2
+            },
+            {
+
+                "id" : 25,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 260
+    },
+    {
+        "id" : 46,
+        "food" : "Thunderfall Lurcher Sandwich",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 42,
+                "count" : 1
+            },
+            {
+
+                "id" : 7,
+                "count" : 6
+            },
+            {
+
+                "id" : 58,
+                "count" : 6
+            },
+            {
+
+                "id" : 26,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 750
+    },
+    {
+        "id" : 47,
+        "food" : "Roast Chicken",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 13,
+                "count" : 8
+            },
+            {
+
+                "id" : 1,
+                "count" : 4
+            },
+            {
+
+                "id" : 9,
+                "count" : 4
+            }
+        ],
+        "itemValue" : 64
+    },
+    {
+        "id" : 48,
+        "food" : "Roast Goose",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 15,
+                "count" : 24
+            },
+            {
+
+                "id" : 4,
+                "count" : 12
+            },
+            {
+
+                "id" : 11,
+                "count" : 12
+            }
+        ],
+        "itemValue" : 192
+    },
+    {
+        "id" : 49,
+        "food" : "Roast Pork",
+        "amountCrafted" : 10,
+        "ingredients" : [
+            {
+
+                "id" : 17,
+                "count" : 72
+            },
+            {
+
+                "id" : 6,
+                "count" : 36
+            },
+            {
+
+                "id" : 12,
+                "count" : 36
+            }
+        ],
+        "itemValue" : 576
+    },
+    {
+        "id" : 50,
+        "food" : "Roasted Whitefog Snapper",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 49,
+                "count" : 1
+            },
+            {
+
+                "id" : 53,
+                "count" : 1
+            },
+            {
+
+                "id" : 9,
+                "count" : 1
+            }
+        ],
+        "itemValue" : 90
+    },
+    {
+        "id" : 51,
+        "food" : "Roasted Clearhaze Snapper",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 50,
+                "count" : 1
+            },
+            {
+
+                "id" : 4,
+                "count" : 2
+            },
+            {
+
+                "id" : 55,
+                "count" : 2
+            },
+            {
+
+                "id" : 11,
+                "count" : 2
+            }
+        ],
+        "itemValue" : 260
+    },
+    {
+        "id" : 52,
+        "food" : "Roasted Puremist Snapper",
+        "amountCrafted" : 1,
+        "ingredients" : [
+            {
+
+                "id" : 51,
+                "count" : 1
+            },
+            {
+
+                "id" : 6,
+                "count" : 6
+            },
+            {
+
+                "id" : 57,
+                "count" : 6
+            },
+            {
+
+                "id" : 12,
+                "count" : 6
+            }
+        ],
+        "itemValue" : 750
+    }
+]
