@@ -84,7 +84,7 @@ module.exports = {
             { name: 'Flour', value: '59' },
             { name: 'Avalonian Energy', value: '60' }
         ];
-		const filtered = choices.filter(choice => choice.name.toLowerCase().startsWith(focusedValue.toLowerCase()));
+		const filtered = choices.filter(choice => choice.name.toLowerCase().includes(focusedValue.toLowerCase()));
 		await interaction.respond(
 			filtered
 		);

@@ -23,6 +23,11 @@ module.exports = {
     ).addNumberOption(option=>
         option.setName('setup_tax')
         .setDescription('setup fee in market')
+    ).addIntegerOption(option=>
+        option.setName('enchantment_lvl')
+        .setDescription('enchantment level (1,2,3)')
+        .setMinValue(1)
+        .setMaxValue(3)
     ),
     async autocomplete(interaction){
         const focusedValue = interaction.options.getFocused();
@@ -93,8 +98,28 @@ module.exports = {
         const price = interaction.options.getInteger('price');
         const returnRate = interaction.options.getNumber('return_rate') ?? factors.return;
         const setupFee = interaction.options.getNumber('setup_fee');
+        const enchantment = interaction.options.getInteger('enchantment_lvl');
         const priceList =[];
         const foodobj=foodObject[foodId];
+        if (enchantment && Ingredient[enchantment+20].price==-1){
+            errPrices.push(
+                {
+                    name:Ingredient[enchantment+20].name,
+                    value:'Price Missing',
+                    inline:true
+                }
+        )
+        hasPrice=false;
+    }
+        else  {
+            priceList.push(
+                {
+                    name:Ingredient[enchantment+20].name,
+                    value:`${Ingredient[enchantment+20].price}`,
+                    inline:true
+                }
+            )
+    }
         foodobj.ingredients.forEach(ingredObj =>{
         if (Ingredient[ingredObj.id].price==-1 ) {
             hasPrice =false;
@@ -117,6 +142,7 @@ module.exports = {
         })
         if(hasPrice){
         const fee = (((foodobj.itemValue * 0.001125) * usage));
+        totalCost+= (enchantment)? (foodobj.fishSauceNo * Ingredient[enchantment+20].price) : 0 ;
         totalCost = ((totalCost*(100-returnRate)/100)/foodobj.amountCrafted)+(price*setupFee/100)+fee;
 
         const profit = price-totalCost;

@@ -1,7 +1,6 @@
 const {SlashCommandBuilder, EmbedBuilder} = require('discord.js');
 const foodObject = require('./food.json');
 const Ingredient = require('./ingredients.json');
-const { data, execute } = require('./cook');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -73,7 +72,7 @@ module.exports = {
               { name: 'Roasted Whitefog Snapper', value: '50' },
               { name: 'Roasted Clearhaze Snapper', value: '51' },
               { name: 'Roasted Puremist Snapper', value: '52' }];
-              const filtered = choices.filter(choice => choice.name.toLowerCase().startsWith(focusedValue.toLowerCase()));
+              const filtered = choices.filter(choice => choice.name.toLowerCase().includes(focusedValue.toLowerCase()));
               await interaction.respond(
                   filtered
               );

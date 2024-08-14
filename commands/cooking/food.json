@@ -10,7 +10,8 @@
                 "count" : 10
             }
         ],
-        "itemValue" : 10
+        "itemValue" : 10,
+        "fishSauceNo": 0
     },
     {
         "id" : 1,
@@ -23,7 +24,8 @@
                 "count" : 10
             }
         ],
-        "itemValue" : 10
+        "itemValue" : 10,
+        "fishSauceNo": 0
     },
     {
         "id" : 2,
@@ -36,7 +38,8 @@
                 "count" : 16
             }
         ],
-        "itemValue" : 64
+        "itemValue" : 64,
+        "fishSauceNo": 10
     },
     {
         "id" : 3,
@@ -49,7 +52,8 @@
                 "count" : 192
             }
         ],
-        "itemValue" : 640
+        "itemValue" : 640,
+        "fishSauceNo": 30
     },
     {
         "id" : 4,
@@ -62,7 +66,8 @@
                 "count" : 144
             }
         ],
-        "itemValue" : 576
+        "itemValue" : 576,
+        "fishSauceNo": 90
     },
     {
         "id" : 5,
@@ -80,7 +85,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 90
+        "itemValue" : 90,
+        "fishSauceNo": 3
     },
     {
         "id" : 6,
@@ -108,7 +114,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 260
+        "itemValue" : 260,
+        "fishSauceNo": 9
     },
     {
         "id" : 7,
@@ -136,7 +143,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 750
+        "itemValue" : 750,
+        "fishSauceNo": 27
     },
     {
         "id" : 8,
@@ -154,7 +162,8 @@
                 "count" : 8
             }
         ],
-        "itemValue" : 64
+        "itemValue" : 64,
+        "fishSauceNo": 10
     },
     {
         "id" : 9,
@@ -172,7 +181,8 @@
                 "count" : 24
             }
         ],
-        "itemValue" : 192
+        "itemValue" : 192,
+        "fishSauceNo": 30
     },
     {
         "id" : 10,
@@ -190,7 +200,8 @@
                 "count" : 72
             }
         ],
-        "itemValue" : 576
+        "itemValue" : 576,
+        "fishSauceNo": 90
     },
     {
         "id" : 11,
@@ -213,7 +224,8 @@
                 "count" : 1
             }
         ],
-        "itemValue" : 90
+        "itemValue" : 90,
+        "fishSauceNo": 3
     },
     {
         "id" : 12,
@@ -241,7 +253,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 260
+        "itemValue" : 260,
+        "fishSauceNo": 9
     },
     {
         "id" : 13,
@@ -269,7 +282,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 750
+        "itemValue" : 750,
+        "fishSauceNo": 27
     },
     {
         "id" : 14,
@@ -292,7 +306,8 @@
                 "count" : 8
             }
         ],
-        "itemValue" : 56
+        "itemValue" : 56,
+        "fishSauceNo": 10
     },
     {
         "id" : 15,
@@ -320,7 +335,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 192
+        "itemValue" : 192,
+        "fishSauceNo": 30
     },
     {
         "id" : 16,
@@ -348,7 +364,8 @@
                 "count" : 18
             }
         ],
-        "itemValue" : 576
+        "itemValue" : 576,
+        "fishSauceNo": 90
     },
     {
         "id" : 17,
@@ -371,7 +388,8 @@
                 "count" : 1
             }
         ],
-        "itemValue" : 90
+        "itemValue" : 90,
+        "fishSauceNo": 3
     },
     {
         "id" : 18,
@@ -399,7 +417,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 260
+        "itemValue" : 260,
+        "fishSauceNo": 9
     },
     {
         "id" : 19,
@@ -427,7 +446,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 750
+        "itemValue" : 750,
+        "fishSauceNo": 27
     },
     {
         "id" : 20,
@@ -450,7 +470,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 56
+        "itemValue" : 56,
+        "fishSauceNo": 10
     },
     {
         "id" : 21,
@@ -473,7 +494,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 168
+        "itemValue" : 168,
+        "fishSauceNo": 30
     },
     {
         "id" : 22,
@@ -496,7 +518,8 @@
                 "count" : 18
             }
         ],
-        "itemValue" : 504
+        "itemValue" : 504,
+        "fishSauceNo": 90
     },
     {
         "id" : 23,
@@ -519,7 +542,8 @@
                 "count" : 1
             }
         ],
-        "itemValue" : 90
+        "itemValue" : 90,
+        "fishSauceNo": 3
     },
     {
         "id" : 24,
@@ -547,8 +571,10 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 260
-    },{
+        "itemValue" : 260,
+        "fishSauceNo": 9   
+    },
+    {
         "id" : 25,
         "food" : "Dusthole Crab Omlette",
         "amountCrafted" : 10,
@@ -574,7 +600,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 750
+        "itemValue" : 750,
+        "fishSauceNo": 27
     },
     {
         "id" : 26,
@@ -602,7 +629,8 @@
                 "count" : 10
             }
         ],
-        "itemValue" : 120
+        "itemValue" : 120,
+        "fishSauceNo": 10
     },
     {
         "id" : 27,
@@ -630,7 +658,8 @@
                 "count" : 30
             }
         ],
-        "itemValue" : 360
+        "itemValue" : 360,
+        "fishSauceNo": 30
     },
     {
         "id" : 28,
@@ -658,7 +687,8 @@
                 "count" : 90
             }
         ],
-        "itemValue" : 1080
+        "itemValue" : 1080,
+        "fishSauceNo": 90
     },
     {
         "id" : 29,
@@ -681,7 +711,8 @@
                 "count" : 8
             }
         ],
-        "itemValue" : 64
+        "itemValue" : 64,
+        "fishSauceNo": 10
     },
     {
         "id" : 30,
@@ -704,7 +735,8 @@
                 "count" : 24
             }
         ],
-        "itemValue" : 192
+        "itemValue" : 192,
+        "fishSauceNo": 30
     },
     {
         "id" : 31,
@@ -727,7 +759,8 @@
                 "count" : 72
             }
         ],
-        "itemValue" : 576
+        "itemValue" : 576,
+        "fishSauceNo": 90
     },
     {
         "id" : 32,
@@ -755,7 +788,8 @@
                 "count" : 10
             }
         ],
-        "itemValue" : 128
+        "itemValue" : 128,
+        "fishSauceNo": 10
     },
     {
         "id" : 33,
@@ -783,7 +817,8 @@
                 "count" : 30
             }
         ],
-        "itemValue" : 384
+        "itemValue" : 384,
+        "fishSauceNo": 30
     },
     {
         "id" : 34,
@@ -811,7 +846,8 @@
                 "count" : 90
             }
         ],
-        "itemValue" : 1152
+        "itemValue" : 1152,
+        "fishSauceNo": 90
     },
     {
         "id" : 35,
@@ -834,7 +870,8 @@
                 "count" : 1
             }
         ],
-        "itemValue" : 90
+        "itemValue" : 90,
+        "fishSauceNo": 3
     },
     {
         "id" : 36,
@@ -862,7 +899,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 260
+        "itemValue" : 260,
+        "fishSauceNo": 9
     },
     {
         "id" : 37,
@@ -890,7 +928,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 750
+        "itemValue" : 750,
+        "fishSauceNo": 27
     },
     {
         "id" : 38,
@@ -913,7 +952,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 56
+        "itemValue" : 56,
+        "fishSauceNo": 10
     },
     {
         "id" : 39,
@@ -936,7 +976,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 168
+        "itemValue" : 168,
+        "fishSauceNo": 30
     },
     {
         "id" : 40,
@@ -959,7 +1000,8 @@
                 "count" : 18
             }
         ],
-        "itemValue" : 504
+        "itemValue" : 504,
+        "fishSauceNo": 90
     },
     {
         "id" : 41,
@@ -987,7 +1029,8 @@
                 "count" : 10
             }
         ],
-        "itemValue" : 120
+        "itemValue" : 120,
+        "fishSauceNo": 10
     },
     {
         "id" : 42,
@@ -1015,7 +1058,8 @@
                 "count" : 30
             }
         ],
-        "itemValue" : 360
+        "itemValue" : 360,
+        "fishSauceNo": 30
     },
     {
         "id" : 43,
@@ -1043,7 +1087,8 @@
                 "count" : 90
             }
         ],
-        "itemValue" : 1080
+        "itemValue" : 1080,
+        "fishSauceNo": 90
     },
     {
         "id" : 44,
@@ -1066,7 +1111,8 @@
                 "count" : 1
             }
         ],
-        "itemValue" : 90
+        "itemValue" : 90,
+        "fishSauceNo": 3
     },
     {
         "id" : 45,
@@ -1094,7 +1140,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 260
+        "itemValue" : 260,
+        "fishSauceNo": 9
     },
     {
         "id" : 46,
@@ -1122,7 +1169,8 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 750
+        "itemValue" : 750,
+        "fishSauceNo": 27
     },
     {
         "id" : 47,
@@ -1145,7 +1193,8 @@
                 "count" : 4
             }
         ],
-        "itemValue" : 64
+        "itemValue" : 64,
+        "fishSauceNo": 10
     },
     {
         "id" : 48,
@@ -1168,7 +1217,8 @@
                 "count" : 12
             }
         ],
-        "itemValue" : 192
+        "itemValue" : 192,
+        "fishSauceNo": 30
     },
     {
         "id" : 49,
@@ -1191,7 +1241,8 @@
                 "count" : 36
             }
         ],
-        "itemValue" : 576
+        "itemValue" : 576,
+        "fishSauceNo": 90
     },
     {
         "id" : 50,
@@ -1214,7 +1265,8 @@
                 "count" : 1
             }
         ],
-        "itemValue" : 90
+        "itemValue" : 90,
+        "fishSauceNo": 3
     },
     {
         "id" : 51,
@@ -1242,7 +1294,8 @@
                 "count" : 2
             }
         ],
-        "itemValue" : 260
+        "itemValue" : 260,
+        "fishSauceNo": 9
     },
     {
         "id" : 52,
@@ -1270,6 +1323,7 @@
                 "count" : 6
             }
         ],
-        "itemValue" : 750
+        "itemValue" : 750,
+        "fishSauceNo": 27
     }
 ]
