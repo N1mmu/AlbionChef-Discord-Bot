@@ -1,0 +1,52 @@
+[
+    {
+        "name":"cook",
+        "description":"used to calculate the price of the food based on the ingredient price that are previously stored using /ingredient",
+        "tips":[
+            {
+                "name":"\u200B",
+                "value":"You can also store default return rate and usage fee using /returnrate and /usage respectively"
+            }
+        ]
+    },
+    {
+        "name":"ingredient",
+        "description":"used to store the price of ingredients in the database",
+        "tips":[
+            {
+                "name":"\u200B",
+                "value":"This ingredient price is used for every food that you calculate using /cook"   
+            }
+        ]
+    },
+    {
+        "name":"usage",
+        "description":"used to store the default usage fee in the database",
+        "tips":[
+            {
+                "name":"\u200B",
+                "value":"This usage fee is used for every food that you calculate using /cook"   
+            }
+        ]
+    },
+    {
+        "name":"returnrate",
+        "description":"used to store the default return rate in the database",
+        "tips":[
+            {
+                "name":"\u200B",
+                "value":"This return rate is used for every food that you calculate using /cook"   
+            }
+        ]
+    },
+    {
+        "name":"food info",
+        "description":"used to get info about the ingredients needed for the food and its price",
+        "tips":[
+            {
+                "name":"\u200B",
+                "value":"\u200B"  
+            }
+        ]
+    }
+]

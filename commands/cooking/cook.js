@@ -1,6 +1,7 @@
 const {SlashCommandBuilder, EmbedBuilder} = require('discord.js');
 const foodObject = require('./food.json');
 const Ingredient = require('./ingredients.json');
+const factors = require('./factors.json');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -88,9 +89,9 @@ module.exports = {
         const errPrices=[];
         var totalCost=0;
         const foodId = Number(interaction.options.getString('food'));
-        const taxFee = interaction.options.getInteger('usagefee');
+        const usage = interaction.options.getInteger('usagefee') ?? factors.usage;
         const price = interaction.options.getInteger('price');
-        const returnRate = interaction.options.getNumber('return_rate');
+        const returnRate = interaction.options.getNumber('return_rate') ?? factors.return;
         const setupFee = interaction.options.getNumber('setup_fee');
         const priceList =[];
         const foodobj=foodObject[foodId];
@@ -115,7 +116,7 @@ module.exports = {
 
         })
         if(hasPrice){
-        const fee = (((foodobj.itemValue * 0.001125) * taxFee));
+        const fee = (((foodobj.itemValue * 0.001125) * usage));
         totalCost = ((totalCost*(100-returnRate)/100)/foodobj.amountCrafted)+(price*setupFee/100)+fee;
 
         const profit = price-totalCost;
@@ -163,6 +164,23 @@ module.exports = {
                 }
             )
             .addFields(...priceList)
+            .addFields(
+                {
+                    name:'\u200B',
+                    value:'\u200B'
+                }
+            )
+            .addFields({
+                name:'Usage Fee',
+                value: `${usage}`,
+                inline:true
+            },
+            {
+                name:"Resource Return Rate",
+                value:`${returnRate}`,
+                inline:true
+            }
+        )
             .setFooter({text:'You can change the ingredient price using /ingredient'})
 
         // await interaction.reply(`The Total Cost is ${totalCost/foodobj.amountCrafted}`);

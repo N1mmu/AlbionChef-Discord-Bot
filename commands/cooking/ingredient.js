@@ -1,6 +1,6 @@
 // Works with ingredients.json file
 
-const {SlashCommandBuilder} = require('discord.js');
+const {SlashCommandBuilder,EmbedBuilder} = require('discord.js');
 const ingredientJson = require('./ingredients.json')
 const fs = require('fs');
 const path = require('path');
@@ -95,9 +95,26 @@ module.exports = {
         // var ingredientJson = JSON.parse(data);
         const ingId = Number(Interaction.options.getString('name'));
         const price = Interaction.options.getInteger('price');
+        const old = ingredientJson[ingId].price;
         ingredientJson[ingId].price=price;
         const jsonData = JSON.stringify(ingredientJson);
         fs.writeFileSync(filePath, jsonData, 'utf8');
-        await Interaction.reply({content:`The price of ${ingredientJson[ingId].name} has been updated to ${price}`})
+        const embed = new EmbedBuilder()
+                        .setColor(0xf6dea5)
+                        .setTitle(ingredientJson[ingId].name)
+                        .setDescription('price has been changed')
+                        .addFields(
+                            {
+                                name:'Old',
+                                value:`${old}`,
+                                inline: true
+                            },
+                            {
+                                name:'New',
+                                value:`${price}`,
+                                inline: true
+                            }
+                        )
+        await Interaction.reply({embeds: [embed]});
     }
 }
