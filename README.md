@@ -3,7 +3,7 @@ Cook Tool for Albion Online
 
 To make your discord bot using this code, just add a config.json file and add the following inside it
 
-
+```
 {
 
     "token": "YOUR BOT TOKEN" ,
@@ -13,6 +13,7 @@ To make your discord bot using this code, just add a config.json file and add th
     "guildId": "YOUR DISCORD SERVER's ID TO GIVE ACCESS TO THE COMMANDS USING DEPLOY COMMAND"
     
 }
+```
 
 ## Pre-requistion
 - a discord bot inside the server you want it to be in
