@@ -6,3 +6,8 @@ Sprint 2
 Added the foods and ingredients
 Added the logic to include all parameters needed to calculate
 Added embed to show the output 
+
+Sprint 3
+found a solution to check ingredient list of a particular food and its given price
+added a way to store resource return rate and usage fee
+added enchanted foods
