@@ -3,6 +3,7 @@ Cook Tool for Albion Online
 
 To make your discord bot using this code, just add a config.json file and add the following inside it
 
+
 {
 
     "token": "YOUR BOT TOKEN" ,
