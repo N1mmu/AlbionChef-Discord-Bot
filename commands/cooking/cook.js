@@ -111,7 +111,7 @@ module.exports = {
         )
         hasPrice=false;
     }
-        else  {
+        else if(enchantment)  {
             priceList.push(
                 {
                     name:Ingredient[enchantment+20].name,
