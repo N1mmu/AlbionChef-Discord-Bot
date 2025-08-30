@@ -8,7 +8,7 @@ To make your discord bot using this code, just add a config.json file and add th
 
     "token": "YOUR BOT TOKEN" ,
     
-    "clientId": , "YOUR DISCORD BOT's ID" ,
+    "clientId":  "YOUR DISCORD BOT's ID" ,
     
     "guildId": "YOUR DISCORD SERVER's ID TO GIVE ACCESS TO THE COMMANDS USING DEPLOY COMMAND"
     
